@@ -1,0 +1,21 @@
+.orderItems{
+width:100%;
+padding:10px;
+margin:auto;
+align-items:center;
+}
+
+table,th,td{
+border:2px solid black;
+text-align: left;
+
+}
+table{
+    width:50%;
+    border-collapse: collapse;
+    margin:auto;
+}
+th,td{
+  padding:5px;
+}
+

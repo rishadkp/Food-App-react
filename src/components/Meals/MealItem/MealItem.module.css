@@ -1,0 +1,29 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+}
+
+.meal:hover{
+background-color: antiquewhite;
+border:2px solid black;
+border-radius: 5px;
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.description {
+  font-style: italic;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
